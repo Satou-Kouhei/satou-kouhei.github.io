@@ -15,13 +15,13 @@ function AppHeader () {
 
     return (
         <>
-            <header className='border-black sticky top-0 z-10 flex gap-4'>
+            <header className='border-b bg-white sticky top-0 z-10 flex justify-around items-center gap-4'>
                 <hgroup className='title-group'>
-                    <h1 className='page-title text text-3xl'>さとうこうへいのポートフォリオサイト（仮）</h1>
-                    <h2 className='intoroduce'>さとう　こうへい</h2>
-                    <p className='purpose'>ポートフォリオサイトです。</p>
+                    <h1 className='page-title justify-self-start text text-3xl'>さとうこうへいのポートフォリオサイト（仮）</h1>
+                    <h2 className='intoroduce justify-self-start'>さとう　こうへい</h2>
+                    <p className='purpose justify-self-start'>ポートフォリオサイトです。</p>
                 </hgroup>
-                <nav className='header-nav'>
+                <nav className='header-nav justify-self-center'>
                     <ul className='flex flex-row gap-2.5'>
                         <li><a href="#top">TOP</a></li>
                         <li><a href="#about">ABOUT</a></li>
@@ -30,7 +30,7 @@ function AppHeader () {
                 </nav>
                 <aside className='change-theme'>
                     <button 
-                        className='border border-black rounded-full hover:bg-gray-200'
+                        className='border p-1 border-black rounded-full hover:bg-gray-200'
                         onClick={() => setIsDark(prev => !prev)} >
                             {isDark ? "ライトモード" : "ダークモード"}
                     </button>

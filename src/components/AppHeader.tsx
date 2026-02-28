@@ -1,4 +1,18 @@
+import { useEffect, useState } from 'react';
+
 function AppHeader () {
+    const [isDark, setIsDark] = useState(() => {
+        const saved = localStorage.getItem("theme");
+        if (saved === "dark") return true;
+        if (saved === "light") return false;
+        return window.matchMedia("(prefers-color-scheme: dark)").matches;
+    });
+
+    useEffect(() => {
+        document.documentElement.classList.toggle("dark", isDark);
+        localStorage.setItem("theme", isDark ? "dark" : "light");
+    },[isDark])
+
     return (
         <>
             <header className='border-black sticky top-0 z-10 flex gap-4'>
@@ -15,8 +29,11 @@ function AppHeader () {
                     </ul>
                 </nav>
                 <aside className='change-theme'>
-                    <button className='darkmode border rounded-l-sm bg-gray-500 hover:bg-gray-300'>ダークモード</button>
-                    <button className='lightmode border rounded-r-sm bg-gray-300 hover:bg-white'>ライトモード</button>
+                    <button 
+                        className='border border-black rounded-full hover:bg-gray-200'
+                        onClick={() => setIsDark(prev => !prev)} >
+                            {isDark ? "ライトモード" : "ダークモード"}
+                    </button>
                 </aside>
             </header>
         </>

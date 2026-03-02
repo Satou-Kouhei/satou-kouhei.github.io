@@ -1,14 +1,14 @@
 function AppFooter () {
     return (
         <>
-            <footer className=''>
-                <nav className='footer-nav flex flex-row'>
-                    <ul className='flex flex-col'>
+            <footer className='mt-4 w-full'>
+                <nav className='footer-nav flex flex-row justify-between'>
+                    <ul className='flex flex-col pl-[20%]'>
                         <li><a href="#top">TOP</a></li>
                         <li><a href="#about">ABOUT</a></li>
                         <li><a href="#contents">CONTENTS</a></li>
                     </ul>
-                    <aside className='sns-link'>
+                    <aside className='sns-link pr-[20%]'>
                         <p>X：<a className='sns-link' href="https://x.com/kou_forpost">https://x.com/kou_forpost</a></p>
                         <p>Git Hub：<a className='sns-link' href="https://github.com/Satou-Kouhei">https://github.com/Satou-Kouhei</a></p>
                     </aside>

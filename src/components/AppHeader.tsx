@@ -22,9 +22,9 @@ function AppHeader () {
                 </hgroup>
                 <nav className='header-nav justify-self-center'>
                     <ul className='flex flex-row gap-2.5'>
-                        <li><a href="#top">TOP</a></li>
-                        <li><a href="#about">ABOUT</a></li>
-                        <li><a href="#contents">CONTENTS</a></li>
+                        <li><a className='hover:text-blue-500 hover:border-b' href="#top">挨拶</a></li>
+                        <li><a className='hover:text-blue-500 hover:border-b' href="#about">自己紹介</a></li>
+                        <li><a className='hover:text-blue-500 hover:border-b' href="#contents">制作物</a></li>
                     </ul>
                 </nav>
                 <aside className='change-theme'>

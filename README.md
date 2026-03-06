@@ -6,6 +6,8 @@ Web・フロントエンド系の職種に転職を目指して制作中。 | Re
 
 https:satou-kouhei/github.io
 
+![ポートフォリオのイメージ](./public/Portfolio_TOP.png)
+
 ## このポートフォリオについて
 
 - 目的：Web・フロントエンド系の職種に転職への転職活動用のポートフォリオサイトの作成

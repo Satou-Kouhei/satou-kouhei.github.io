@@ -17,7 +17,8 @@ function AppHeader () {
         <>
             <header className='border-b bg-white sticky top-0 z-10 flex justify-around items-center gap-4 pb-2'>
                 <hgroup className='title-group'>
-                    <h1 className='page-title justify-self-start text text-3xl'>さとうこうへいのポートフォリオサイト（仮）</h1>
+                    <h1 className='page-title justify-self-start text text-4xl'>Kou's Portfolio</h1>
+                    <aside className='title-description text-sm text-left'>＜さとうこうへいのポートフォリオサイト＞</aside>
                 </hgroup>
                 <nav className='header-nav justify-self-center'>
                     <ul className='flex flex-row gap-2.5'>

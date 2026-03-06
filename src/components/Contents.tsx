@@ -68,7 +68,7 @@ function Contents () {
                             <li>HTML</li>
                             <li>CSS（Tailwindcss）</li>
                             <li>JavaScript / TypeScript</li>
-                            <li>Node.js</li>
+                            <li>React</li>
                         </ul>
                         <aside className='col-span-2'>
                             <h3>こだわりポイント</h3>

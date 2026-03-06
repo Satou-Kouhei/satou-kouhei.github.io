@@ -1,73 +1,27 @@
-# React + TypeScript + Vite
+# Kou's Portfolio - さとうこうへいのポートフォリオ
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Web・フロントエンド系の職種に転職を目指して制作中。 | React + TypeScript + Tailwind CSS
 
-Currently, two official plugins are available:
+## デモサイト
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+https:satou-kouhei/github.io
 
-## React Compiler
+## このポートフォリオについて
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 目的：Web・フロントエンド系の職種に転職への転職活動用のポートフォリオサイトの作成
+- 使用技術：React、TypeScript、Vite、Tailwind CSS
+- こだわりポイント：divタグを極力使わず、セマンティックなHTMLタグを使用
 
-## Expanding the ESLint configuration
+## 学んだこと
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- Tailwind CSSを使ったスタイリング
+- アクセシビリティを意識したHTML構造
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## 追加予定
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+- 実際の制作物のページ
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## SNS等
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+- X：https://x.com/kou_forpost
+- Git Hub：https://github.com/Satou-Kouhei

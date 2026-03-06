@@ -4,7 +4,7 @@ Web・フロントエンド系の職種に転職を目指して制作中。 | Re
 
 ## デモサイト
 
-https:satou-kouhei/github.io
+https://satou-kouhei/github.io
 
 ![ポートフォリオのイメージ](./public/Portfolio_TOP.png)
 

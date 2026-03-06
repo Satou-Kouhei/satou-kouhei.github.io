@@ -8,5 +8,5 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
-  base: '/satou-kouhei.github.io/'
+  base: '/'
 })

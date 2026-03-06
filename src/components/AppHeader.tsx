@@ -15,11 +15,9 @@ function AppHeader () {
 
     return (
         <>
-            <header className='border-b bg-white sticky top-0 z-10 flex justify-around items-center gap-4'>
+            <header className='border-b bg-white sticky top-0 z-10 flex justify-around items-center gap-4 pb-2'>
                 <hgroup className='title-group'>
                     <h1 className='page-title justify-self-start text text-3xl'>さとうこうへいのポートフォリオサイト（仮）</h1>
-                    <h2 className='intoroduce justify-self-start'>さとう　こうへい</h2>
-                    <p className='purpose justify-self-start'>ポートフォリオサイトです。</p>
                 </hgroup>
                 <nav className='header-nav justify-self-center'>
                     <ul className='flex flex-row gap-2.5'>

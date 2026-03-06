@@ -1,9 +1,9 @@
 function Contents () {
     return (
         <>
-            <main className='mt-5 flex-col-1'>
-                <section id='top' className='top'>
-                    <h2>挨拶</h2>
+            <main className='flex-col-1'>
+                <section id='top' className='top bg-amber-50 min-h-screen content-center grid-cols-2 container mx-auto'>
+                    <h2>【挨拶】</h2>
                     <article className='greeting'>
                         <p>はじめまして。さとうこうへいです。</p>
                         <p>現在、Web・フロントエンド系の職種に転職するために活動を始めました。</p>
@@ -11,9 +11,9 @@ function Contents () {
                     </article>
                 </section>
 
-                <section id='about' className='about mt-5'>
-                    <h2>自己紹介</h2>
-                    <article className='about-me flex flex-row content-between gap-3 mt-3 p-3'>
+                <section id='about' className='about bg-green-50 min-h-screen content-center'>
+                    <h2>【自己紹介】</h2>
+                    <article className='about-me flex flex-row content-between container mx-auto gap-3 mt-3 p-3'>
                         <ul className='content-center text-balance justify-self-start'>
                             <li>専門学校を卒業後、就労継続支援A型事業所にて、支援スタッフとして2年半勤務。</li>
                             <li>その後、対面式のスクールにてJavaを習うが、就職支援サービスにてインフラエンジニアを勧められる。</li>
@@ -22,7 +22,7 @@ function Contents () {
                             <li>オンラインスクールにてJavaScriptを学習し、派遣会社に就職。</li>
                             <li>富山県の現場で2年間勤め、期間満了にて退職。</li>
                         </ul>
-                        <dl className='grid grid-cols-2 justify-self-end w-1/3'>
+                        <dl className='grid grid-cols-2 w-1/3'>
                             <dt className='border-b border-black'>年　　齢　：</dt>
                             <dd className='border-b border-black text-left'>35</dd>
                             <dt className='border-b border-black'>出　　身　：</dt>
@@ -58,8 +58,8 @@ function Contents () {
                     </article>
                 </section>
 
-                <section id='contents' className='contents mt-4'>
-                    <h2>制作物</h2>
+                <section id='contents' className='bg-red-50 min-h-screen content-center'>
+                    <h2 className=''>【制作物】</h2>
                     <article className='projects grid grid-row-3 grid-cols-2 content-around gap-3 container box-border size-1/3 p-1 bg-linear-to-l from-sky-300 to-violet-300'>
                         {/* ロゴを作成したら bg-linear をはずす */}
                         <img src="" alt="ロゴ未作成" className='site-logo row-span-3' />
@@ -74,7 +74,7 @@ function Contents () {
                             <h3>こだわりポイント</h3>
                             <p className='text-left'>スクレイピングに興味があり、眺めていたサイトのソースを開いたところ、
                                 7重くらいのdivタグのネストの中に内容がたったの1行というのを見たことがあります。</p>
-                            <p>そこで、divタグの多用に疑問を持ったことから、このページではツールが自動で生成するもの以外のdivタグを使用していません。</p>
+                            <p className='text-left'>そこで、divタグの多用に疑問を持ったことから、このページではツールが自動で生成するもの以外のdivタグを使用していません。</p>
                         </aside>
                     </article>
                 </section>

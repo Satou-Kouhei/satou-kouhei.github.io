@@ -61,8 +61,7 @@ function Contents () {
                 <section id='contents' className='bg-red-50 min-h-screen content-center'>
                     <h2 className=''>【制作物】</h2>
                     <article className='projects grid grid-row-3 grid-cols-2 content-around gap-3 container box-border size-1/3 p-1 bg-linear-to-l from-sky-300 to-violet-300'>
-                        {/* ロゴを作成したら bg-linear をはずす */}
-                        <img src="" alt="ロゴ未作成" className='site-logo row-span-3' />
+                        <img src="./public/Portfolio_TOP.png" alt="スクリーンショット" className='site-logo row-span-3' />
                         <p className='project-name row-span-1'>ポートフォリオサイト</p>
                         <ul className='use-stack row-span-2 flex flex-col'>
                             <li>HTML</li>

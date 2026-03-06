@@ -18,6 +18,7 @@ https://satou-kouhei.github.io
 
 - Tailwind CSSを使ったスタイリング
 - アクセシビリティを意識したHTML構造
+- ビルド、デプロイ方法
 
 ## 追加予定
 
